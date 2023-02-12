@@ -20,21 +20,6 @@ For example, here is how you switch to a new node version using nave:
     nave use 16.13.0
     node -v
     v16.13.0
-
-
-
-
-
-
-If you are looking for the Complete Typescript 2 Course - Build a REST API, the repo with the full code can be found here:
-
-[https://angular-university.io/course/typescript-2-tutorial](https://github.com/angular-university/complete-typescript-course)
-
-[Github repo for this course](https://github.com/angular-university/complete-typescript-course)
-
-![Complete Typescript Course](https://angular-academy.s3.amazonaws.com/thumbnails/typescript-2-small.png)
-
-
 # Installing the Angular CLI
 
 With the following command the angular-cli will be installed globally in your machine:
