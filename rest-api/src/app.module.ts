@@ -1,9 +1,12 @@
 import { Module } from "@nestjs/common";
 import { CoursesModule } from "./courses/courses.module";
+import {MongooseModule} from "@nestjs/mongoose";
+import {MONGO_CONNECTION} from './constants';
 
 @Module({
     imports : [
-        CoursesModule
+        CoursesModule,
+        MongooseModule.forRoot(MONGO_CONNECTION)
     ]
 })
 export class AppModule{
